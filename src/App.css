@@ -1,0 +1,52 @@
+.toDoField {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.mainBox input {
+  width: 300px;
+  height: 45px;
+  background-color: #f5f5f5;
+  border: 0;
+  padding: 0px 6px;
+  font-size: 18px;
+  color: #252525;
+  border-radius: 20px 0px 0px 20px;
+  outline: none;
+}
+
+.mainBox input::placeholder {
+  color: #252525;
+  opacity: 1;
+}
+
+.mainBox button {
+  width: auto;
+  height: 45px;
+  background-color: #f5f5f5;
+  border: 0;
+  padding: 11px 6px;
+  color: #ca0419;
+  border-radius: 0px 20px 20px 0px;
+  text-align: center;
+  align-items: center;
+}
+
+.mainBox button svg {
+  font-size: 1.8rem;
+}
+
+.itemBox {
+  height: auto;
+  width: 450px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.itemBox ul li {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  font-weight: 500;
+  color: #262626;
+}
